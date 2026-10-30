@@ -1,0 +1,8 @@
+DATASET: fashion_mnist
+DATASET_: fashion_mnist
+MAX_EPOCH: 30
+LBS: [0.5]
+UBS: [1.0]
+PNRS: [-10.0]
+N_LATENTS: [16]
+LINF_EPS: 0.002

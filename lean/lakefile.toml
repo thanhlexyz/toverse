@@ -1,0 +1,14 @@
+name = "tool"
+version = "0.1.0"
+packagesDir = "/home/thanh/.cache/lake/packages"
+defaultTargets = ["Proof"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+[[lean_lib]]
+name = "Proof"
+srcDir = "."
+globs = ["Noise", "Verifier"]

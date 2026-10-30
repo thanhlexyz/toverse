@@ -1,0 +1,8 @@
+DATASET: torch/cifar10
+DATASET_: cifar10
+MAX_EPOCH: 100
+LBS: [0.75]
+UBS: [1.0]
+PNRS: [-5.0, -10.0, -15.0, -20.0]
+N_LATENTS: [16]
+LINF_EPS: 0.0001
